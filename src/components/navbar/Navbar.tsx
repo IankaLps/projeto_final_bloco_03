@@ -5,7 +5,7 @@ function Navbar() {
         <div className="w-full flex justify-center py-4 bg-teal-400 text-white">
             <div className="container flex justify-between items-center text-lg">
                 
-                {/* Logo da Farmácia */}
+                {/* Logo Farmácia */}
                 <img 
                     src="https://ik.imagekit.io/yijg14v4w/Farm%C3%A1cia%20Ecommerce/logo.png?updatedAt=1740488836951" 
                     alt="Logo" 
