@@ -6,7 +6,8 @@ function Footer() {
 
     return (
         <>
-            <div className="flex justify-center bg-teal-400 text-white">
+            <div className="flex justify-center bg-teal-400 text-white
+                            text-white w-full fixed bottom-0 left-0">
                 <div className="container flex flex-col items-center py-4">
                     <p className='text-xl font-bold'>
                     Farmácia Popular | Copyright: {data}

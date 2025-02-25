@@ -1,4 +1,5 @@
 import { MagnifyingGlass, User, ShoppingCart } from "phosphor-react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -6,11 +7,13 @@ function Navbar() {
             <div className="container flex justify-between items-center text-lg">
                 
                 {/* Logo Farmácia */}
-                <img 
-                    src="https://ik.imagekit.io/yijg14v4w/Farm%C3%A1cia%20Ecommerce/logo.png?updatedAt=1740488836951" 
-                    alt="Logo" 
-                    className="h-10 w-auto" 
-                />
+                <Link to="/">
+                    <img 
+                        src="https://ik.imagekit.io/yijg14v4w/Farm%C3%A1cia%20Ecommerce/logo.png?updatedAt=1740488836951" 
+                        alt="Logo" 
+                        className="h-10 w-auto" 
+                    />
+                </Link>
 
                 {/* Barra de Pesquisa com Ícone */}
                 <div className="flex items-center bg-white rounded-md px-2 w-1/3">
@@ -24,8 +27,8 @@ function Navbar() {
 
                 {/* Menu + Ícones */}
                 <div className="flex gap-6 items-center">
-                    <span>Categorias</span>
-                    <span>Cadastrar Categoria</span>
+                    <Link to="/categorias" className="hover:underline">Categorias</Link>
+                    <Link to="/cadastrarCategoria" className="hover:underline">Cadastrar Categoria</Link>
                     
                     {/* Ícone de Perfil */}
                     <User size={30} className="cursor-pointer" />
