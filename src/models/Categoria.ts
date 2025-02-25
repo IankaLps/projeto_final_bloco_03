@@ -1,7 +1,5 @@
-import { ReactNode } from "react";
-
 export interface Categoria {
-    tipo: ReactNode;
+    tipo: string;
     id: number;
     nome: string;
     descricao: string;
