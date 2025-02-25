@@ -20,7 +20,7 @@ function Home() {
 
                     <div className="flex justify-center">
                         <img
-                            src="https://ik.imagekit.io/yijg14v4w/Farm%C3%A1cia%20Ecommerce/Pharmacist-amico.png?updatedAt=1740488863883" 
+                            src="https://ik.imagekit.io/yijg14v4w/Farm%C3%A1cia%20Ecommerce/Pharmacist-amico%20(1).png?updatedAt=1740491815557" 
                             alt="Imagem da Página Home" 
                             width="400px"
                         />
